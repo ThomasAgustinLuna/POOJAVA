@@ -1,2 +1,3 @@
 # POOJAVA
-Java Programación Orientada a Objetos
+
+know a little about my path in JAVA POO during my course at EGG
