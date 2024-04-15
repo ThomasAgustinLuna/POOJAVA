@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="HerenciaEjercicio6">
+  <ClassDiagramComponents>
+    <Class name="HerenciaEjercicio6" package="herenciaejercicio6" visibility="public" xPosition="196.0" yPosition="83.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="String[]" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Edificio" package="" visibility="public" xPosition="522.0" yPosition="83.0">
+      <Fields>
+        <Field name="ancho" type="double" visibility="private"/>
+        <Field name="alto" type="double" visibility="private"/>
+        <Field name="largo" type="double" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="calcularSuperficie" returnType="void" visibility="public"/>
+        <Method name="calcularVolumen" returnType="void" visibility="public"/>
+        <Method name="untitledMethod" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Polideportivo" package="" visibility="public" xPosition="549.0" yPosition="376.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="techado" type="boolean" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="EdificioOficinas" package="" visibility="public" xPosition="810.0" yPosition="324.0">
+      <Fields>
+        <Field name="oficinas" type="int" visibility="private"/>
+        <Field name="cantPer" type="int" visibility="private"/>
+        <Field name="numPisos" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="cantidadPersonas" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="tiene" source="Edificio" target="Polideportivo" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="tiene" source="Edificio" target="EdificioOficinas" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
